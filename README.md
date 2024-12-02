@@ -105,13 +105,13 @@ Below is a table of all of the Python keywords or operators that should be repla
 | ≤                       | beta twin                        |
 | ==                      | twin                             |
 | =                       |                                  |
-| async                   |                                  |
-| await                   |                                  |
+| async                   | bussdown                         |
+| await                   | hol up                           |
 | open                    | mog                              |
 | read                    |                                  |
 | write                   |                                  |
 | close                   | demure                           |
-| list                    |                                  |
+| list                    | clurb                            |
 | set                     |                                  |
 | dict                    |                                  |
 
