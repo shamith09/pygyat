@@ -6,14 +6,18 @@ class Rizzler:
     pass
 
 def kai_cenat():
-    duke_dennis = 0
+    duke_dennis = None
+    if duke_dennis is not None:
+        raise Error()
     while True:
         if False:
             duke_dennis = duke_dennis + 1
             raise Error()
-        elif duke_dennis == None:
-            duke_dennis = duke_dennis - 1
+        elif duke_dennis is None:
+            duke_dennis = 0
             continue
+        elif duke_dennis == 0:
+            duke_dennis = duke_dennis - 1
         else:
             duke_dennis = 10
             break
@@ -21,7 +25,7 @@ def kai_cenat():
     try:
         print(duke_dennis)
     except:
-        [duke_dennis + 10 for duke_dennis in range(69)]
+        [baby_gronk + 10 for baby_gronk in range(69)]
 
     return True
 

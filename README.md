@@ -84,10 +84,10 @@ Below is a table of all of the Python keywords or operators that should be repla
 | assert                  | sus                              |
 | raise                   | crashout                         |
 | in                      | diddy                            |
-| is                      |                                  |
+| is                      | do be like                       |
 | and                     |                                  |
 | or                      |                                  |
-| not                     |                                  |
+| not                     | cap                              |
 | with                    | pookie                           |
 | as                      | ahh                              |
 | global                  | GOAT                             |
