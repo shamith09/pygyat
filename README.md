@@ -87,7 +87,7 @@ Below is a table of all of the Python keywords or operators that should be repla
 | is                      | do be like                       |
 | and                     |                                  |
 | or                      |                                  |
-| not                     |                                  |
+| not                     | cap                              |
 | with                    | pookie                           |
 | as                      | ahh                              |
 | global                  | GOAT                             |

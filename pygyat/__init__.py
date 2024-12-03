@@ -39,6 +39,7 @@ GYAT2PY_MAPPINGS = {
     "sigma": ">",
     "beta": "<",
     "do\s+be\s+like": "is",
+    "cap": "not",
     "diddy": "in",
     "pluh": "pass"
 }
