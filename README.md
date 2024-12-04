@@ -84,10 +84,10 @@ Below is a table of all of the Python keywords or operators that should be repla
 | assert                  | sus                              |
 | raise                   | crashout                         |
 | in                      | diddy                            |
-| is                      |                                  |
-| and                     |                                  |
-| or                      |                                  |
-| not                     |                                  |
+| is                      | lowkey                           |
+| and                     | collab                           |
+| or                      | fold                             |
+| not                     | cap                              |
 | with                    | pookie                           |
 | as                      | ahh                              |
 | global                  | GOAT                             |
@@ -104,16 +104,16 @@ Below is a table of all of the Python keywords or operators that should be repla
 | ≥                       | sigma twin                       |
 | ≤                       | beta twin                        |
 | ==                      | twin                             |
-| =                       |                                  |
-| async                   |                                  |
-| await                   |                                  |
+| =                       | bet                              |
+| async                   | speedrun                         |
+| await                   | ayo hol up                       |
 | open                    | mog                              |
-| read                    |                                  |
-| write                   |                                  |
+| read                    | eyeball                          |
+| write                   | type beat                        |
 | close                   | demure                           |
-| list                    |                                  |
-| set                     |                                  |
-| dict                    |                                  |
+| list                    | bangers                          |
+| set                     | album                            |
+| dict                    | driptionary                      |
 
 ## Quick intro
 
