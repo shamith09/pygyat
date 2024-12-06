@@ -112,6 +112,36 @@ def pre_reverse_parse(infile_string):
     return infile_string
 
 
+def safe_substitute(value, deescaped_key, line):
+    """
+    Performs Python token substitution on a Pygyat line, but ignores tokens inside of strings.
+    TODO: Can be extended to ignore tokens inside of comments as well.
+
+    Args:
+        value (str):             Pygyat token
+        deescaped_key (str):     Python token
+        line (str):              Code line
+
+    Returns:
+        Code line with safe Python token substitutions
+    """
+    string_pattern = r"""
+        (?P<string>(['"])(?:\\.|(?!\2).)*\2)  # Match single or double-quoted strings
+    """
+
+    def replace_callback(match):
+        if match.group("string"):
+            return match.group(0)
+        else:
+            return re.sub(
+                rf'(?<!["\'#])\b{re.escape(value)}\b(?!["\'])',
+                f"{deescaped_key}_is_not_valid_python",
+                match.group(0)
+            )
+
+    return re.sub(string_pattern, replace_callback, line)
+
+
 def reverse_parse(filename, outputname):
     """
     Changes a Python file to a PyGyat file
@@ -160,11 +190,9 @@ def reverse_parse(filename, outputname):
         # disallow PyGyat in original Python file
         # replace anything in mappings.keys() with its value but opposite
         for value, key in GYAT2PY_MAPPINGS.items():
-            line = re.sub(
-                r'(?<!["\'#])\b{}\b(?!["\'])'.format(key),
-                f"{key}_is_not_valid_python",
-                line,
-            )
+            if '\\s' in value:
+                value = value.replace('\\s', 's')
+            line = safe_substitute(value, key, line)
             line = re.sub(
                 r'(?<!["\'#])\b{}\b(?!["\'])'.format(re.escape(key)), value, line
             )
@@ -215,14 +243,14 @@ def main():
         infile_string = "".join(infile.readlines())
 
         # pre_parsed = pre_reverse_parse(infile_string)
-        tempoutfile = open(cmd_args.input[0] + ".py2gyattemp", "w")
+        tempoutfile = open(cmd_args.input[0] + ".py2gyattempt", "w")
         # tempoutfile.write(pre_parsed)
         tempoutfile.write(infile_string)
         tempoutfile.close()
 
-        reverse_parse(cmd_args.input[0] + ".py2gyattemp", outputname)
+        reverse_parse(cmd_args.input[0] + ".py2gyattempt", outputname)
 
-        os.remove(cmd_args.input[0] + ".py2gyattemp")
+        os.remove(cmd_args.input[0] + ".py2gyattempt")
 
     except FileNotFoundError:
         logger.log_error("No file named %s" % cmd_args.input[0])
