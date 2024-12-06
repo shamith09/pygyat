@@ -73,6 +73,35 @@ def parse_glazes(filename):
     return glazes_with_suffixes
 
 
+def safe_substitute(value, deescaped_key, line):
+    """
+    Performs Pygyat token substitution on a line, but ignores tokens inside of strings.
+    TODO: Can be extended to ignore tokens inside of comments as well.
+
+    Args:
+        value (str):             Python token
+        deescaped_key (str):     Pygyat token
+        line (str):              Code line
+
+    Returns:
+        Code line with safe Pygyat token substitutions
+    """
+    string_pattern = r"""
+        (?P<string>(['"])(?:\\.|(?!\2).)*\2)  # Match single or double-quoted strings
+    """
+
+    def replace_callback(match):
+        if match.group("string"):
+            return match.group(0)
+        else:
+            return re.sub(
+                rf'(?<!["\'#])\b{re.escape(value)}\b(?!["\'])',
+                f"dont_use_{value}_use_{deescaped_key}",
+                match.group(0)
+            )
+    return re.sub(string_pattern, replace_callback, line)
+
+
 def parse_file(filepath, filename_prefix, outputname=None, change_imports=None):
     """
     Converts a pygyat file to a python file and writes it to disk.
@@ -126,13 +155,8 @@ def parse_file(filepath, filename_prefix, outputname=None, change_imports=None):
         # disallow real python
         for key, value in GYAT2PY_MAPPINGS.items():
             deescaped_key = key.replace("\s+", " ")
-            line = re.sub(
-                r'(?<!["\'#])\b{}\b(?!["\'])'.format(re.escape(value)),
-                f"dont_use_{value}_use_{deescaped_key}",
-                line,
-            )
+            line = safe_substitute(value, deescaped_key, line)
             line = re.sub(r'(?<!["\'#])\b{}\b(?!["\'])'.format(key), value, line)
-
         infile_str_indented += line + add_comment + "\n"
 
     # Change imported names if necessary

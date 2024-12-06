@@ -1,0 +1,4 @@
+yap("us-east-1")
+yap("us+east+1")
+yap("us>east>1")
+yap("us<east<1")
