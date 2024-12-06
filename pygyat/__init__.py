@@ -39,5 +39,8 @@ GYAT2PY_MAPPINGS = {
     "sigma": ">",
     "beta": "<",
     "diddy": "in",
-    "pluh": "pass"
+    "pluh": "pass",
+    "hol\s+up": "await",
+    "bussdown": "async",
+    "clurb": "list"
 }
