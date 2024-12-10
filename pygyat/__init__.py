@@ -40,7 +40,7 @@ GYAT2PY_MAPPINGS = {
     "beta": "<",
     "diddy": "in",
     "pluh": "pass",
-    "is":"oil\s+up",
+    "oil\s+up":"is",
     "gegagedigedagedago":"and",
     "goon":"or",
     "opp":"not",
