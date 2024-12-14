@@ -31,6 +31,9 @@ Implementation based on [Bython](https://github.com/mathialo/bython).
 ## Code example
 ![Code Example](https://github.com/shamith09/vscode-pygyat/blob/main/code-example.png?raw=true)
 
+## GPT assistant 
+Use [PyGyat GPT](https://chatgpt.com/g/g-675df8ed9aa48191a4439b670479dfdc-pygyat) to generate PyGyat code using ChatGPT
+
 ## Installation
 
 You can install PyGyat directly from PyPI using pip (with or without `-H`, depending on your Python installation):
