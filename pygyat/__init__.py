@@ -1,4 +1,4 @@
-VERSION_NUMBER = "1.0.6-beta"
+VERSION_NUMBER = "1.0.7-beta"
 
 GYAT2PY_MAPPINGS = {
     "hawk": "try",
@@ -39,5 +39,6 @@ GYAT2PY_MAPPINGS = {
     "sigma": ">",
     "beta": "<",
     "diddy": "in",
-    "pluh": "pass"
+    "pluh": "pass",
+    "not": "cap"
 }
