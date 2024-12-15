@@ -73,7 +73,7 @@ Below is a table of all of the Python keywords or operators that should be repla
 | +                       | rizz                             |
 | print                   | yap                              |
 | True                    | Aura                             |
-| False                   | Cooked                           |
+| False                   | Cap                              |
 | def                     | bop                              |
 | while                   | let him cook                     |
 | import                  | glaze                            |
