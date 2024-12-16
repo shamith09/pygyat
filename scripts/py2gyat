@@ -136,7 +136,7 @@ def safe_substitute(value, deescaped_key, line):
             return re.sub(
                 rf'(?<!["\'#])\b{re.escape(value)}\b(?!["\'])',
                 f"{deescaped_key}_is_not_valid_python",
-                match.group(0)
+                match.group(0),
             )
 
     return re.sub(string_pattern, replace_callback, line)
@@ -190,8 +190,8 @@ def reverse_parse(filename, outputname):
         # disallow PyGyat in original Python file
         # replace anything in mappings.keys() with its value but opposite
         for value, key in GYAT2PY_MAPPINGS.items():
-            if '\\s' in value:
-                value = value.replace('\\s', 's')
+            if "\\s" in value:
+                value = value.replace("\\s", "s")
             line = safe_substitute(value, key, line)
             line = re.sub(
                 r'(?<!["\'#])\b{}\b(?!["\'])'.format(re.escape(key)), value, line

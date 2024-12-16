@@ -4,13 +4,25 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="min-h-screen relative">
-      <div 
+      <script
+        data-name="BMC-Widget"
+        data-cfasync="false"
+        src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+        data-id="shamith09"
+        data-description="Support me on Buy me a coffee!"
+        data-message=""
+        data-color="#BD5FFF"
+        data-position="Right"
+        data-x_margin="18"
+        data-y_margin="18"
+      />
+      <div
         className="absolute inset-x-0 top-0 h-[600px] pointer-events-none"
         style={{
           background: `linear-gradient(180deg, 
             var(--purple-glow-start) 0%, 
             var(--purple-glow-mid) 25%, 
-            transparent 100%)`
+            transparent 100%)`,
         }}
       />
 

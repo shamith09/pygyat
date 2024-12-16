@@ -53,6 +53,19 @@ export default function Documentation() {
 
   return (
     <div className="min-h-screen relative">
+      {/* eslint-disable-next-line @next/next/no-sync-scripts */}
+      <script
+        data-name="BMC-Widget"
+        data-cfasync="false"
+        src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+        data-id="shamith09"
+        data-description="Support me on Buy me a coffee!"
+        data-message=""
+        data-color="#BD5FFF"
+        data-position="Right"
+        data-x_margin="18"
+        data-y_margin="18"
+      />
       {/* Table of Contents */}
       <aside className="hidden lg:block w-64 fixed left-0 top-16 h-[calc(100vh-4rem)] p-6 overflow-y-auto border-r border-gray-200 dark:border-gray-800">
         <nav className="space-y-1">
@@ -96,10 +109,10 @@ export default function Documentation() {
               <h2 className="text-2xl font-bold mb-4">Key features</h2>
               <ul className="list-disc list-inside space-y-2">
                 <li>Write Python using brainrot terms instead.</li>
-                <li>Run PyGyat files using the `pygyat` command, just like Python.</li>
+                <li>Run PyGyat files using the <span className="font-mono bg-gray-800 rounded px-1">pygyat</span> command, just like Python.</li>
                 <li>Translate Python files to PyGyat and vice versa.</li>
                 <li>Real Python keywords that have defined PyGyat mappings will not be allowed.</li>
-                <li>Edit your PyGyat code with syntax highlighting with the `vscode-pygyat` extension.</li>
+                <li>Edit your PyGyat code with syntax highlighting with the <span className="font-mono bg-gray-800 rounded px-1">vscode-pygyat</span> extension.</li>
               </ul>
             </section>
 
@@ -119,16 +132,16 @@ export default function Documentation() {
               <p>You can install PyGyat directly from PyPI using pip:</p>
               <div className="bg-gray-900 rounded-lg p-4 mb-4">
                 <pre>
-                  <code className="text-gray-100">$ pip3 install <span className="font-mono bg-gray-800 rounded px-1">pygyat</span></code>
+                  <code className="text-gray-100">$ pip3 install pygyat</code>
                 </pre>
               </div>
 
               <p>If you want to install it from the git repository:</p>
               <div className="bg-gray-900 rounded-lg p-4 mb-4">
                 <pre>
-                  <code className="text-gray-100">{`$ git clone https://github.com/shamith09/<span className="font-mono bg-gray-800 rounded px-1">pygyat</span>.git`}</code>
+                  <code className="text-gray-100">{`$ git clone https://github.com/shamith09/pygyat.git`}</code>
                   <br />
-                  <code className="text-gray-100">{`$ cd <span className="font-mono bg-gray-800 rounded px-1">pygyat</span>`}</code>
+                  <code className="text-gray-100">{`$ cd pygyat`}</code>
                   <br />
                   <code className="text-gray-100">{`$ pip3 install .`}</code>
                 </pre>
@@ -137,7 +150,7 @@ export default function Documentation() {
               <p>To uninstall:</p>
               <div className="bg-gray-900 rounded-lg p-4 mb-4">
                 <pre>
-                  <code className="text-gray-100">$ pip3 uninstall <span className="font-mono bg-gray-800 rounded px-1">pygyat</span></code>
+                  <code className="text-gray-100">$ pip3 uninstall pygyat</code>
                 </pre>
               </div>
 
