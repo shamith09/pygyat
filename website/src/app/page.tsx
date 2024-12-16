@@ -4,6 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="min-h-screen relative">
+      {/* eslint-disable-next-line @next/next/no-sync-scripts */}
       <script
         data-name="BMC-Widget"
         data-cfasync="false"
