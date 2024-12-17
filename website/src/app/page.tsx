@@ -50,9 +50,22 @@ export default function Home() {
             >
               Get Started
             </a>
+
+            <a
+              href="https://pump.fun/coin/H5gnXETD6m4rZnnzg6DSNAwd1bSy4fb9yhVK5n6pump"
+              className="flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-pink-500 to-purple-600 text-white hover:opacity-90 transition"
+            >
+              <span>$PYGYAT Token</span>
+            </a>
+            <a
+              href="https://t.me/PyGyat_BrainRot"
+              className="flex items-center px-6 py-3 rounded-lg bg-blue-500 text-white hover:opacity-90 transition"
+            >
+              <span>Join Telegram</span>
+            </a>
             <a
               href="https://github.com/shamith09/pygyat"
-              className="px-6 py-3 rounded-lg border border-purple-600 text-purple-600 hover:bg-purple-50 dark:hover:bg-purple-900/20 transition"
+              className="px-6 py-3 rounded-lg bg-purple-600 text-white hover:bg-purple-700 transition"
             >
               View on GitHub
             </a>
