@@ -52,7 +52,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://pump.fun/coin/H5gnXETD6m4rZnnzg6DSNAwd1bSy4fb9yhVK5n6pump"
+              href="https://pump.fun/coin/8NhVP1cGCP3xaPNn74up8sQVr6JBczeKHytyEEWYpump"
               className="flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-pink-500 to-purple-600 text-white hover:opacity-90 transition"
             >
               <span>$PyGyat Coin</span>
