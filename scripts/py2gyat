@@ -155,7 +155,7 @@ def reverse_parse(filename, outputname):
         outputname (str):   Path of destination file
     """
     # Open a file as bytes
-    infile = open(filename, "r")
+    infile = open(filename, "r", encoding="utf-8")
     inlines = infile.readlines()
 
     # Read file to string
@@ -200,7 +200,7 @@ def reverse_parse(filename, outputname):
         infile_str_indented += line + add_comment + "\n"
 
     # Save the file
-    outfile = open(outputname, "w")
+    outfile = open(outputname, "w", encoding="utf-8")
     outfile.write(infile_str_indented)
 
 
@@ -239,11 +239,11 @@ def main():
             else change_file_name(cmd_args.input[0], None)
         )
 
-        infile = open(cmd_args.input[0], "r")
+        infile = open(cmd_args.input[0], "r", encoding="utf-8")
         infile_string = "".join(infile.readlines())
 
         # pre_parsed = pre_reverse_parse(infile_string)
-        tempoutfile = open(cmd_args.input[0] + ".py2gyattemp", "w")
+        tempoutfile = open(cmd_args.input[0] + ".py2gyattemp", "w", encoding="utf-8")
         # tempoutfile.write(pre_parsed)
         tempoutfile.write(infile_string)
         tempoutfile.close()

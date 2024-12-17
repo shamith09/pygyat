@@ -59,7 +59,7 @@ def parse_glazes(filename):
         list of str: All imported modules, suffixed with '.gyat'. Ie, the name
         the imported files must have if they are pygyat files.
     """
-    infile = open(filename, "r")
+    infile = open(filename, "r", encoding="utf-8")
     infile_str = ""
 
     for line in infile:
@@ -119,8 +119,8 @@ def parse_file(filepath, filename_prefix, outputname=None, change_imports=None):
     """
     filename = os.path.basename(filepath)
 
-    infile = open(filepath, "r")
-    outfile = open(filename_prefix + _change_file_name(filename, outputname), "w")
+    infile = open(filepath, "r", encoding="utf-8")
+    outfile = open(filename_prefix + _change_file_name(filename, outputname), "w", encoding="utf-8")
 
     # Read file to string
     infile_str_raw = ""
