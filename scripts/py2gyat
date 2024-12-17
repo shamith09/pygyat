@@ -191,7 +191,7 @@ def reverse_parse(filename, outputname):
         # replace anything in mappings.keys() with its value but opposite
         for value, key in GYAT2PY_MAPPINGS.items():
             if "\\s" in value:
-                value = value.replace("\\s", "s")
+                value = value.replace("\\s+", " ")
             line = safe_substitute(value, key, line)
             line = re.sub(
                 r'(?<!["\'#])\b{}\b(?!["\'])'.format(re.escape(key)), value, line
