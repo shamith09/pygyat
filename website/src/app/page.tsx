@@ -55,7 +55,7 @@ export default function Home() {
               href="https://pump.fun/coin/H5gnXETD6m4rZnnzg6DSNAwd1bSy4fb9yhVK5n6pump"
               className="flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-pink-500 to-purple-600 text-white hover:opacity-90 transition"
             >
-              <span>$PYGYAT Token</span>
+              <span>$PyGyat Coin</span>
             </a>
             <a
               href="https://t.me/PyGyat_BrainRot"
