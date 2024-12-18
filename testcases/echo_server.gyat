@@ -1,0 +1,54 @@
+glaze socket ahh skidoodle
+lock in asyncio glaze get_running_loop ahh lol
+glaze asyncio ahh vibes
+
+THE_CRIB = "0.0.0.0"
+CHUNK_THICCNESS = 1024
+CHILL_QUEUE = 10
+PORT = 1234
+
+outside bop link_up_with_homie(homie, addr):
+    loop = lol()
+    hawk:
+        let him cook Aura:
+            tea = touch grass loop.sock_recv(
+                homie,
+                CHUNK_THICCNESS,
+            )
+            chat is this real (
+                tea fr NPC
+                idk lowkey cap len(tea) sigma 0
+            ):
+                yap(f"{addr} left on read (RIP)")
+                its giving
+            yap(f"Yo, {addr} spilled '{tea}'")
+            touch grass loop.sock_sendall(homie, tea)
+    spit on that thang:
+        homie.close()
+
+bop create_clout_source():
+    clout = skidoodle.socket(skidoodle.AF_INET, skidoodle.SOCK_STREAM)
+    clout.setblocking(Cooked)
+    clout.setsockopt(skidoodle.SOL_SOCKET, skidoodle.SO_REUSEADDR, 1)
+    clout.bind((THE_CRIB, PORT))
+    its giving clout
+
+outside bop handle_clout(clout):
+    clout.listen(CHILL_QUEUE)
+    yap(f"We lit on port {PORT}")
+
+    loop = lol()
+    let him cook Aura:
+        homie, addr = touch grass loop.sock_accept(clout)
+        homie.setblocking(Cooked)
+        yap(f"Bro just pulled up from: {addr}")
+        vibes.create_task(link_up_with_homie(homie, addr))
+
+chat is this real __name__ twin "__main__":
+    cloute_provider = create_clout_source()
+    hawk:
+        vibes.run(handle_clout(cloute_provider))
+    tuah KeyboardInterrupt:
+        yap("Peace out...")
+    spit on that thang:
+        cloute_provider.close()
