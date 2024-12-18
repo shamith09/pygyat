@@ -39,5 +39,14 @@ GYAT2PY_MAPPINGS = {
     "sigma": ">",
     "beta": "<",
     "diddy": "in",
-    "pluh": "pass"
+    "pluh": "pass",
+    "outside": "async",
+    "touch\s+grass": "await",
+    "built\s+like": "=",
+    "fr": "is",
+    "cap": "not",
+    "link\s+up": "and",
+    "peep": "read",
+    "drop": "write",
+    "idk\s+lowkey": "or",
 }
