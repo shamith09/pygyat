@@ -88,10 +88,10 @@ Below is a table of all of the Python keywords or operators that should be repla
 | assert                  | sus                              |
 | raise                   | crashout                         |
 | in                      | diddy                            |
-| is                      |                                  |
-| and                     |                                  |
-| or                      |                                  |
-| not                     |                                  |
+| is                      | oil up                           |
+| and                     | gegagedigedagedago               | 
+| or                      | goon                             |
+| not                     | opp                              |
 | with                    | pookie                           |
 | as                      | ahh                              |
 | global                  | GOAT                             |
@@ -108,16 +108,16 @@ Below is a table of all of the Python keywords or operators that should be repla
 | ≥                       | sigma twin                       |
 | ≤                       | beta twin                        |
 | ==                      | twin                             |
-| =                       |                                  |
-| async                   |                                  |
-| await                   |                                  |
+| =                       | gonna touch                      |
+| async                   | before gta6                      |
+| await                   | those who know                   |
 | open                    | mog                              |
-| read                    |                                  |
-| write                   |                                  |
+| read                    | respect moment                   |
+| write                   | jork                             |
 | close                   | demure                           |
-| list                    |                                  |
-| set                     |                                  |
-| dict                    |                                  |
+| list                    | brick by brick                   |
+| set                     | rizz party                       |
+| dict                    | chill guy                        |
 
 ## Quick intro
 
