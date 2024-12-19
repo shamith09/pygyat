@@ -52,7 +52,7 @@ export default function Home() {
             </a>
 
             <a
-              href="https://jup.ag/swap/SOL-8NhVP1cGCP3xaPNn74up8sQVr6JBczeKHytyEEWYpump?referrer=EGUh9o78H7cDZatm3c3R558qEakENMUhVhmuBEDbwzSJ&feeBps=100"
+              href="https://jup.ag/swap/SOL-8NhVP1cGCP3xaPNn74up8sQVr6JBczeKHytyEEWYpump?referrer=Vtim38ksMkPVPdDuWC6dHC7X2QZQGFCy78zVftpQJqV&feeBps=100"
               className="flex items-center px-6 py-3 rounded-lg bg-gradient-to-r from-pink-500 to-purple-600 text-white hover:opacity-90 transition"
             >
               <span>$PyGyat Coin</span>

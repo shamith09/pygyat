@@ -9,13 +9,11 @@
   --purple-glow-mid: rgba(233, 213, 255, 0.25);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-    --purple-glow-start: rgba(126, 34, 206, 0.3);
-    --purple-glow-mid: rgba(126, 34, 206, 0.15);
-  }
+.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+  --purple-glow-start: rgba(126, 34, 206, 0.3);
+  --purple-glow-mid: rgba(126, 34, 206, 0.15);
 }
 
 body {

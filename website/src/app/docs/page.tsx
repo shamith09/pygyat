@@ -109,10 +109,10 @@ export default function Documentation() {
               <h2 className="text-2xl font-bold mb-4">Key features</h2>
               <ul className="list-disc list-inside space-y-2">
                 <li>Write Python using brainrot terms instead.</li>
-                <li>Run PyGyat files using the <span className="font-mono bg-gray-800 rounded px-1">pygyat</span> command, just like Python.</li>
+                <li>Run PyGyat files using the <span className="font-mono bg-gray-800 text-white dark:text-gray-100 rounded px-1">pygyat</span> command, just like Python.</li>
                 <li>Translate Python files to PyGyat and vice versa.</li>
                 <li>Real Python keywords that have defined PyGyat mappings will not be allowed.</li>
-                <li>Edit your PyGyat code with syntax highlighting with the <span className="font-mono bg-gray-800 rounded px-1">vscode-pygyat</span> extension.</li>
+                <li>Edit your PyGyat code with syntax highlighting with the <span className="font-mono bg-gray-800 text-white dark:text-gray-100 rounded px-1">vscode-pygyat</span> extension.</li>
               </ul>
             </section>
 
@@ -130,14 +130,14 @@ export default function Documentation() {
             <section id="installation" className="mb-12">
               <h2 className="text-2xl font-bold mb-4">Installation</h2>
               <p>You can install PyGyat directly from PyPI using pip:</p>
-              <div className="bg-gray-900 rounded-lg p-4 mb-4">
+              <div className="rounded-lg p-4 mb-4">
                 <pre>
                   <code className="text-gray-100">$ pip3 install pygyat</code>
                 </pre>
               </div>
 
               <p>If you want to install it from the git repository:</p>
-              <div className="bg-gray-900 rounded-lg p-4 mb-4">
+              <div className=" rounded-lg p-4 mb-4">
                 <pre>
                   <code className="text-gray-100">{`$ git clone https://github.com/shamith09/pygyat.git`}</code>
                   <br />
@@ -148,7 +148,7 @@ export default function Documentation() {
               </div>
 
               <p>To uninstall:</p>
-              <div className="bg-gray-900 rounded-lg p-4 mb-4">
+              <div className="rounded-lg p-4 mb-4">
                 <pre>
                   <code className="text-gray-100">$ pip3 uninstall pygyat</code>
                 </pre>
@@ -346,7 +346,7 @@ export default function Documentation() {
               </p>
 
               <p className="mt-4">To run a PyGyat program:</p>
-              <div className="bg-gray-900 rounded-lg p-4 mb-4">
+              <div className="rounded-lg p-4 mb-4">
                 <pre>
                   <code className="text-gray-100">
                     $ pygyat source.gyat arg1 arg2 ...
@@ -356,9 +356,9 @@ export default function Documentation() {
 
               <p>
                 PyGyat also includes a translator from Python to PyGyat using
-                the <span className="font-mono bg-gray-800 rounded px-1">py2gyat</span> command:
+                the <span className="font-mono bg-gray-800 text-white dark:text-gray-100 rounded px-1">py2gyat</span> command:
               </p>
-              <div className="bg-gray-900 rounded-lg p-4 mb-4">
+              <div className="rounded-lg p-4 mb-4">
                 <pre>
                   <code className="text-gray-100">$ py2gyat test.py</code>
                 </pre>
@@ -375,19 +375,19 @@ export default function Documentation() {
               </p>
               <ul className="list-disc list-inside space-y-2">
                 <li>
-                  <span className="font-mono bg-gray-800 rounded px-1">pygyat</span> contains a Python package containing the
+                  <span className="font-mono bg-gray-800 text-white dark:text-gray-100 rounded px-1">pygyat</span> contains a Python package containing the
                   parser and other utilities used by the main script
                 </li>
                 <li>
-                  <span className="font-mono bg-gray-800 rounded px-1">etc</span> contains manual pages and other auxillary
+                  <span className="font-mono bg-gray-800 text-white dark:text-gray-100 rounded px-1">etc</span> contains manual pages and other auxillary
                   files
                 </li>
                 <li>
-                  <span className="font-mono bg-gray-800 rounded px-1">scripts</span> contains the runnable Python scripts, ie
+                  <span className="font-mono bg-gray-800 text-white dark:text-gray-100 rounded px-1">scripts</span> contains the runnable Python scripts, ie
                   the ones run from the shell
                 </li>
                 <li>
-                  <span className="font-mono bg-gray-800 rounded px-1">testcases</span> contains a couple of sample *.gyat and
+                  <span className="font-mono bg-gray-800 text-white dark:text-gray-100 rounded px-1">testcases</span> contains a couple of sample *.gyat and
                   *.py files intended for testing the implementation
                 </li>
                 <li>
@@ -395,7 +395,7 @@ export default function Documentation() {
                     href="https://github.com/shamith09/vscode-pygyat"
                     className="text-purple-600 hover:underline"
                   >
-                    <span className="font-mono bg-gray-800 rounded px-1">vscode-pygyat</span>
+                    <span className="font-mono bg-gray-800 text-white dark:text-gray-100 rounded px-1">vscode-pygyat</span>
                   </Link>{" "}
                   contains the Visual Studio Code extension that enables syntax
                   highlighting in VS Code.
