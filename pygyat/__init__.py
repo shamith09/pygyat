@@ -40,5 +40,5 @@ GYAT2PY_MAPPINGS = {
     "beta": "<",
     "diddy": "in",
     "pluh": "pass",
-    "mog": "open",
+    "mog": "open"
 }
