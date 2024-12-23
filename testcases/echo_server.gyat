@@ -9,7 +9,7 @@ PORT = 1234
 
 outside bop link_up_with_homie(homie, addr):
     loop = lol()
-    hawk:
+    pookie homie:
         let him cook Aura:
             tea = touch grass loop.sock_recv(
                 homie,
@@ -23,8 +23,6 @@ outside bop link_up_with_homie(homie, addr):
                 its giving
             yap(f"Yo, {addr} spilled '{tea}'")
             touch grass loop.sock_sendall(homie, tea)
-    spit on that thang:
-        homie.close()
 
 bop create_clout_source():
     clout = skidoodle.socket(skidoodle.AF_INET, skidoodle.SOCK_STREAM)
