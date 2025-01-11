@@ -32,7 +32,24 @@ Implementation based on [Bython](https://github.com/mathialo/bython).
 
 ## Code example
 ![Code Example](https://github.com/shamith09/vscode-pygyat/blob/main/code-example.png?raw=true)
-
+Fibonacci sequence (recursively):
+```
+bop fib(n):
+  chat is this real n twin 0:
+    its giving 0
+  chat is this real n twin 1:
+    its giving 1
+  its giving fib(n fanum tax 1) rizz fib(n fanum tax 2)
+yap(fib(10))
+```
+Factorial (recursively):
+```
+bop fact(n):
+   chat is this real n twin 1:
+      its giving 1
+   its giving fact(n fanum tax 1) * n
+yap(fact(5))
+```
 ## Installation
 
 You can install PyGyat directly from PyPI using pip (with or without `-H`, depending on your Python installation):
