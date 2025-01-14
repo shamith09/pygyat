@@ -28,7 +28,7 @@ GYAT2PY_MAPPINGS = {
     "GOAT": "global",
     "motion": "nonlocal",
     "delulu": "del",
-    "pause no diddy": "yield from",
+    "pause\s+no\s+diddy": "yield from",
     "pause": "yield",
     "NPC": "None",
     "unc": "self",
@@ -41,5 +41,11 @@ GYAT2PY_MAPPINGS = {
     "diddy": "in",
     "pluh": "pass",
     "mog": "open",
-    "demure": "close"
+    "demure": "close",
+    "linganguliguli": "async",
+    "no\s+lo\s+diga": "await",
+    "cap": "not",
+    "pick": "or",
+    "twins": "and",
+    "built\s+different": "is"
 }
