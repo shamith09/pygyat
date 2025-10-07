@@ -186,3 +186,7 @@ At the moment, PyGyat is written in Python. The git repository is structured int
  * `scripts` contains the runnable Python scripts, ie the ones run from the shell
  * `testcases` contains a couple of sample \*.gyat and \*.py files intended for testing the implementation
  * [`vscode-pygyat`](https://github.com/shamith09/vscode-pygyat) contains the Visual Studio Code extension that enables syntax highlighting in VS Code.
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=shamith09/pygyat&type=Date)](https://www.star-history.com/#shamith09/pygyat&Date)
