@@ -111,7 +111,7 @@ Below is a table of all of the Python keywords or operators that should be repla
 | not                     |                                  |
 | with                    | pookie                           |
 | as                      | ahh                              |
-| global                  | GOAT                             |
+| global                  | gigachad                         |
 | nonlocal                | motion                           |
 | del                     | delulu                           |
 | yield                   | pause                            |
