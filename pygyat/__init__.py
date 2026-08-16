@@ -9,7 +9,7 @@ GYAT2PY_MAPPINGS = {
     "rizz": "+",
     "yap": "print",
     "Aura": "True",
-    "Cooked": "False",
+    "Cap": "False",
     "bop": "def",
     "let\s+him\s+cook": "while",
     "glaze": "import",
