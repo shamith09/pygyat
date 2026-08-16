@@ -25,7 +25,7 @@ GYAT2PY_MAPPINGS = {
     "crashout": "raise",
     "pookie": "with",
     "ahh": "as",
-    "GOAT": "global",
+    "gigachad": "global",
     "motion": "nonlocal",
     "delulu": "del",
     "pause no diddy": "yield from",

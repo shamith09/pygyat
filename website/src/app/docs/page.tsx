@@ -305,7 +305,7 @@ export default function Documentation() {
                       </tr>
                       <tr>
                         <td className="px-6 py-4">global</td>
-                        <td className="px-6 py-4">GOAT</td>
+                        <td className="px-6 py-4">gigachad</td>
                       </tr>
                       <tr>
                         <td className="px-6 py-4">nonlocal</td>
