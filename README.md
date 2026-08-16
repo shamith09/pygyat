@@ -189,4 +189,4 @@ At the moment, PyGyat is written in Python. The git repository is structured int
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=shamith09/pygyat&type=Date)](https://www.star-history.com/#shamith09/pygyat&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=shamith09/pygyat&type=Date)](https://star-history.dera.page/#shamith09/pygyat&Date)
